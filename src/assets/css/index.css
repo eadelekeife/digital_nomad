@@ -1,0 +1,154 @@
+/* * {
+    margin: 0%;
+    padding: 0%;
+} */
+
+body, html {
+    font-family: 'Overpass', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Ovo', serif;
+    font-family: 'Old Standard TT', serif;
+}
+
+.main_button_color_border {
+    background: transparent;
+    padding: 5px 25px;
+    border-radius: 50px;
+    border: 2px solid #00539F;
+    color: #00539F;
+    font-weight: 600;
+}
+
+.white_button_color_border {
+    background: transparent;
+    padding: 5px 25px;
+    border-radius: 50px;
+    border: 2px solid #fff;
+    color: #fff;
+    font-weight: 600;
+}
+
+.main_button_color {
+    background: #00539F;
+    padding: 10px 25px;
+    border-radius: 50px;
+    border: 1px solid #00539F;
+    color: #fff;
+    font-weight: 600;
+}
+
+.main_button_color_full {
+    background: #00539F;
+    padding: 10px 25px;
+    border-radius: 3px;
+    border: 1px solid #00539F;
+    color: #fff;
+    font-weight: 600;
+    width: 100%;
+}
+
+.contain {
+    padding: 0 30px;
+}
+
+.container {
+    padding: 0 5%;
+}
+
+.form-grid-2 {
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: repeat(2,1fr);
+}
+
+.row_2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.row_2_no_align {
+    display: flex;
+    justify-content: space-between;
+}
+
+.row_2 div, .row_2_no_align div {
+    flex: 1;
+}
+
+.row_2 img {
+    height: auto;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.grid_4 {
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: repeat(4,1fr);
+}
+
+.footer {
+    grid-gap: 10px;
+    background: #F6F6F6;
+    padding: 40px 0px;
+    padding-bottom: 0%;
+    margin-top: 5%;
+}
+
+.footer p, .footer ul li a {
+    color: #666666;
+    line-height: 1.5;
+    font-size: 14px;
+}
+
+.footer p {
+    margin-bottom: 5px;
+}
+
+.footer ul li {
+    padding: 5px 0;
+    list-style: none;
+}
+
+.footer ul {
+    margin: 0%;
+    padding: 0%;
+}
+
+.footer h4 {
+    font-weight: 700;
+    margin-bottom: 10px;
+    color: #333333;
+    font-family: 'Overpass', sans-serif;
+}
+
+.gray_bg {
+    background: #F4F4F4;
+}
+
+.grid_3 {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap: 10px;
+}
+
+.gallery_props .row_2 div {
+    height: 100%;
+}
+
+.colored_bg .row_2 {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+
+/* .colored_bg .row_2 div {
+    height: 100%;
+} */

@@ -1,0 +1,91 @@
+.first_nav .navi {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 30px;
+}
+
+.fixed .first_nav .navi {
+    position: fixed;
+    width: 100%;
+    background: #fff;
+    box-shadow: 0 0 4px rgba(0,0,0,.2);
+    z-index: 10;
+}
+
+.first_nav .navi ul, .first_nav .navi div, .first_nav .navi img {
+    padding: 0%;
+    margin: 0%;
+}
+
+.first_nav .navi img {
+    height: 1.3rem;
+    width: auto;
+    margin-top: -5%;
+}
+
+.first_nav .navi ul li {
+    display: inline-block;
+    padding: 0 15px;
+}
+
+.first_nav .navi ul li a {
+    color: #00539F;
+    font-size: 14px;
+    line-height: 1.5;
+}
+
+.search {
+    background: #00539F;
+    border-radius: 50%;
+    width: 2.5rem;
+    height: 2.5rem;
+    line-height: 2.5rem;
+    text-align: center;
+    display: inline-block;
+}
+
+.search img {
+    width: auto !important;
+    height: 1.3rem !important;
+}
+
+.navi .main_button_color_border {
+    margin-right: 10px;
+}
+
+.logo_side {
+    text-align: center;
+}
+
+.logo_side h4 {
+    font-family: 'Overpass', sans-serif;
+    font-size: 12px;
+    line-height: 1.5;
+}
+
+.first_nav .navi .logo_side h4, .first_nav .navi .logo_side hr {
+    display: block;
+}
+
+.fixed .first_nav .navi .logo_side h4, .fixed .first_nav .navi .logo_side hr {
+    display: none;
+}
+
+.fixed .first_nav .navi img {
+    height: 2rem;
+    width: auto;
+    margin-top: -5%;
+}
+
+@media screen and (max-width: 720px) {
+    .desktop {
+        display: none;
+    }
+    .mobile .navi {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 10px 10px;
+    }
+}
